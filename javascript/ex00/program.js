@@ -1,7 +1,8 @@
-const number = prompt 
-if (number % 2 == 0){
-    console.log ('The number is even')
-}
-else{
-   console.log ('The number is odd')
+function odd(number){
+    if (number % 2 == 0){
+        return('Even')
+    }
+    else{
+       return ('Odd')
+    }
 }
