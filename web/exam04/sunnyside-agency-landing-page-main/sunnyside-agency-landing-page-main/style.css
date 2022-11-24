@@ -14,11 +14,9 @@ body{
 .navbar{
     display: flex;
     justify-content: flex-end;
-    border: 1px solid black;
 }
 
 h1{
-    border: 1px solid black;
     display: flex;
     justify-content: center;
     margin-top: 20%;
@@ -38,15 +36,13 @@ h1{
     padding: 0;
 }
 
-.paragraphe{
-    border: 1px solid black;
-}
+
+
+
 
 .avis{
     display: flex;
     justify-content: space-around;
-    border: 1px solid black;
-
 }
 
 #emily{
