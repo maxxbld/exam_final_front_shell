@@ -9,12 +9,39 @@ body{
     background-position: center;
     background-size: cover;
     box-sizing: border-box;
+    color: white;
+
 }
 
 .navbar{
     display: flex;
     justify-content: flex-end;
 }
+.btn {
+    text-decoration: none;
+    color: black;
+    font-family: Fraunces 9pt Soft;
+    font-size: 22px;
+    letter-spacing: 2px;
+    background-color: #FDFDFDff;
+    border-radius: 40px;
+    padding: 20px 24px;
+    transition: all .3s;
+  }
+.btn2 {
+    text-decoration: none;
+    color: #4F9585ff;
+    font-family: Fraunces 9pt Soft;
+    font-size: 22px;
+    letter-spacing: 2px;
+    padding: 20px 24px;
+    transition: all .3s;
+  }  
+  
+.btn:hover {
+    color: white;
+    background-color: #6FCEFFff
+  }
 
 h1{
     display: flex;
@@ -43,6 +70,14 @@ h1{
 .avis{
     display: flex;
     justify-content: space-around;
+}
+
+.cercle{
+    width : 150px; height : 150px;
+    border: none;
+    -moz-border-radius : 75px;
+    -webkit-border-radius : 75px;
+    border-radius : 75px;
 }
 
 #emily{
@@ -76,5 +111,9 @@ h1{
     background-color: #90D4C6;
     display: flex;
     justify-content: flex-end;
+    color: #4F9585ff;
 }
-
+.btn2:hover {
+    color: white;
+    background-color: #90D4C5ff;
+}
